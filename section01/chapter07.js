@@ -39,7 +39,7 @@ console.log(or, and, not); // true false false
 let comp1 = 1 === 2; // 동등 비교 연산자
 let comp2 = 1 !== 2; // 비동등 비교 연산자
 let comp3 = 1 == "1"; // 자료형 비교 불가능
-console.log(comp1, comp2, comp3); // false true
+console.log(comp1, comp2, comp3); // false true true
 let comp4 = 2 > 1;
 let comp5 = 2 < 1;
 console.log(comp4, comp5); // true false
