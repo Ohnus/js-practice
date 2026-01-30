@@ -27,6 +27,8 @@ console.log(t1); // number
 var7 = false;
 t1 = typeof var7;
 console.log(t1); // boolean
+let lastType = t1 === "boolean" ? "boolean" : "number";
+console.log(lastType);
 
 // 3. 삼항 연산자: 항을 3개 사용하는 연산자
 // -> 조건식을 이용해서 참, 거짓일 때의 값을 다르게 반환
