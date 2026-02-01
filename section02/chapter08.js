@@ -39,7 +39,9 @@ console.log(index2); // -1 -> 없으면 -1
 let arr4 = [1, 2, 3];
 
 // if문 없애고 더 간결하게.. 'item % 2 !== 0'은 연산식이기 때문에 true 또는 false 반환
-const findedIndex1 = arr4.findIndex((item) => item % 2 !== 0);
+const findedIndex1 = arr4.findIndex(
+  (item) => item % 2 !== 0
+);
 const findedIndex2 = arr4.findIndex((item) => item === 999);
 // const findedIndex = arr4.findIndex((item) => {
 //   if (item % 2 !== 0) return true;
@@ -56,7 +58,9 @@ let objectArr = [{ name: "Sunho" }, { name: "Gildong" }];
 console.log(objectArr.indexOf({ name: "Sunho" })); // -1
 
 // findIndex
-console.log(objectArr.findIndex((item) => item.name === "Sunho")); // 0
+console.log(
+  objectArr.findIndex((item) => item.name === "Sunho")
+); // 0
 
 // 2-5. find
 // -> 모든 요소를 순회하면서 콜백함수를 요소를 찾는데, 요소를 그대로 반환
