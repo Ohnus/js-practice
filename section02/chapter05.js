@@ -12,7 +12,7 @@ console.log(p1, p2); // 1 2
 // 2-1. 얕은 복사
 let o1 = { name: "Sunho" };
 let o2 = o1;
-console.log(o1.name, o2.name); // Sunho gildong
+console.log(o1.name, o2.name); // Sunho Sunho
 
 // 메모리에 새로운 값을 저장하지 않고 원본 값을 바꾼다.
 o2.name = "gildong";
