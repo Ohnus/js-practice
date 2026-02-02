@@ -74,6 +74,18 @@ const sorted = arr5.toSorted();
 console.log(arr5); // ['c', 'a', 'b']
 console.log(sorted); // ['a', 'b', 'c']
 
+let numArr5 = [10, 3, 5];
+const numSorted = numArr5.toSorted((a, b) => {
+  if (a > b) {
+    return 1;
+  } else if (a < b) {
+    return -1;
+  } else {
+    return 0;
+  }
+});
+console.log(numSorted);
+
 // 3-5 join
 // 배열의 모든 요소를 하나의 문자열로 합쳐서 반환하는 메서드
 let arr6 = ["Hi", "I'm", "Sunho"];
